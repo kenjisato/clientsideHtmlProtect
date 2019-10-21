@@ -1,0 +1,13 @@
+Package: clientsideHtmlProtect
+Type: Package
+Title: Protects a HTML file that can be undecrypted client-side
+Version: 0.0.0.9000
+Author: Kenji Sato <mail@kenjisato.jp>
+Maintainer: Kenji Sato <mail@kenjisato.jp>
+Description: This package provides a wrapper for the python script of Clientside HTML Password Protect by Max Laumeister and Zoltan Galli <https://www.maxlaumeister.com/clientside-html-password/>. Function `protect()` calls a modified version of the original Python script directly. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: 
+    reticulate
